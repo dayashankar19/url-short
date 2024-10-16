@@ -7,6 +7,6 @@
     }
   ],
   "env": {
-    "API_URL": "https://url-short1-5fe2f73550eb.herokuapp.com/"
+    "API_URL": "https://url-short1-5fe2f73550eb.herokuapp.com"
   }
 }
