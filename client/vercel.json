@@ -1,13 +1,12 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "next.config.js",
-        "use": "@vercel/next"
-      }
-    ],
-    "env": {
-      "API_URL": "@api_url"
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
     }
+  ],
+  "env": {
+    "API_URL": "https://url-short1-5fe2f73550eb.herokuapp.com/"
   }
-  
+}
