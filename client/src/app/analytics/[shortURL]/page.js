@@ -2,7 +2,7 @@ import axios from "axios";
 
 async function getAnalytics(shortURL) {
   const res = await axios.get(
-    `http://localhost:5000/api/url/analytics/${shortURL}`
+    `${process.env.API_URL}/api/url/analytics/${shortURL}`
   );
   return res.data;
 }

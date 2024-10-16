@@ -16,7 +16,7 @@ export default function URLForm() {
     setShortURL("");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/url/shorten", {
+      const res = await axios.post(`${process.env.API_URL}/api/url/shorten`, {
         longURL,
         customAlias: customAlias || undefined,
         expirationTime: expiration ? parseInt(expiration) : undefined,
